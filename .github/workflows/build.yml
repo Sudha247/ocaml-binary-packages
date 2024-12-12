@@ -20,14 +20,7 @@ jobs:
             version: "1.20.1-4.14"
             ocaml: "4.14.2"
             target_triple: x86_64-apple-darwin
-          - os: macos-14
-            version: "1.20.1-4.14"
-            ocaml: "4.14.1"
-            target_triple: aarch64-apple-darwin
-          - os: macos-13
-            version: "1.20.1-4.14"
-            ocaml: "4.14.1"
-            target_triple: x86_64-apple-darwin
+          # ocaml-lsp-server.1.20.1-4.14 doesn't build on 4.14.1 (2024-12-12)
           - os: macos-14
             version: "1.20.1-4.14"
             ocaml: "4.14.0"
@@ -104,10 +97,6 @@ jobs:
           - os: ubuntu-latest
             version: "1.20.1-4.14"
             ocaml: "4.14.2"
-            target_triple: x86_64-unknown-linux-musl
-          - os: ubuntu-latest
-            version: "1.20.1-4.14"
-            ocaml: "4.14.1"
             target_triple: x86_64-unknown-linux-musl
           - os: ubuntu-latest
             version: "1.20.1-4.14"
