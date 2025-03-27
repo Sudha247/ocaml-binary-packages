@@ -26,9 +26,9 @@ dev-repo: "git+https://github.com/ocaml/ocaml-lsp.git"
 available: arch = "x86_64" & os = "linux"
 conflicts: "ocaml" {!= "5.2.0"}
 url {
-  src: "https://github.com/ocaml-dune/ocaml-binary-packages/releases/download/2024-11-21.0/ocaml-lsp-server.1.19.0+binary-ocaml-5.2.0-built-2024-11-21.0-x86_64-unknown-linux-musl.tar.gz"
+  src: "https://github.com/ocaml-dune/ocaml-binary-packages/releases/download/2025-02-04.2/ocaml-lsp-server.1.21.0+binary-ocaml-5.2.0-built-2025-02-04.2-x86_64-unknown-linux-musl.tar.gz"
   checksum: [
-    "sha256=673683d5b0a6c744116a4930d101457bdbe42d97d462793bf22a48d435cb5b40"
-    "sha512=8be668013c4444a88867ec3677bf1ed31cbadb371626d6fc16ed48eaf56a29b5f42410154ad9976a5b08093d0dfb174e45d317d570243107d719bafa01632e01"
+    "sha256=2ad327259b1c07c2e895571273e39a25e82b78932cb5b5145c146eab3240cb31"
+    "sha512=5156a8b729d852958ac93699789e36a606c8e28a37662c5dceda423e78c9e1ffc698e2dc66cfa76c6f03a5a1a6962a3c804aade774c6045afc0cffe61855c001"
   ]
 }
